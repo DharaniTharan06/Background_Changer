@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [color,setcolor] = useState("olive")
+  const [color,setcolor] = useState("white")
 
   return (
     <div className='fixed w-full h-screen inset-0' style={{backgroundColor: color}}>
